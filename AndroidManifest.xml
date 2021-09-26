@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.botswanaagric"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.botswanaagric.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.botswanaagric.home"
+            android:label="@string/app_name" >
+            </activity>
+            <activity
+            android:name="com.example.botswanaagric.lwapa"
+            android:label="@string/app_name" >
+            </activity>
+            <activity
+            android:name="com.example.botswanaagric.fruits"
+            android:label="@string/app_name" >
+            </activity>
+            <activity
+            android:name="com.example.botswanaagric.vegetables"
+            android:label="@string/app_name" >
+            </activity>
+             <activity
+            android:name="com.example.botswanaagric.meroho"
+            android:label="@string/app_name" >
+            </activity>
+             <activity
+            android:name="com.example.botswanaagric.ditholwana"
+            android:label="@string/app_name" >
+            </activity>
+            <activity
+            android:name="com.example.botswanaagric.grapes"
+            android:label="@string/app_name" >
+            </activity>
+            <activity
+            android:name="com.example.botswanaagric.mango"
+            android:label="@string/app_name" >
+            </activity>
+             <activity
+            android:name="com.example.botswanaagric.oranges"
+            android:label="@string/app_name" >
+            </activity>
+             <activity
+            android:name="com.example.botswanaagric.morara"
+            android:label="@string/app_name" >
+            </activity>
+             <activity
+            android:name="com.example.botswanaagric.namunu"
+            android:label="@string/app_name" >
+            </activity>
+             <activity
+            android:name="com.example.botswanaagric.mangoo"
+            android:label="@string/app_name" >
+            </activity>
+             <activity
+            android:name="com.example.botswanaagric.carrot"
+            android:label="@string/app_name" >
+            </activity>
+             <activity
+            android:name="com.example.botswanaagric.asparagas"
+            android:label="@string/app_name" >
+            </activity>
+             <activity
+            android:name="com.example.botswanaagric.sweetp"
+            android:label="@string/app_name" >
+            </activity>
+            <activity
+            android:name="com.example.botswanaagric.aseparagase"
+            android:label="@string/app_name" >
+            </activity>
+            <activity
+            android:name="com.example.botswanaagric.litapole"
+            android:label="@string/app_name" >
+            </activity>
+            <activity
+            android:name="com.example.botswanaagric.sehoete"
+            android:label="@string/app_name" >
+            </activity>
+            <activity
+            android:name="com.example.botswanaagric.feedback"
+            android:label="@string/app_name" >
+            </activity>
+            <activity
+            android:name="com.example.botswanaagric.thankyou"
+            android:label="@string/app_name" >
+            </activity>
+            <activity
+            android:name="com.example.botswanaagric.phetolo"
+            android:label="@string/app_name" >
+            </activity>
+            <activity
+            android:name="com.example.botswanaagric.thankyou1"
+            android:label="@string/app_name" >
+            </activity>
+    </application>
+
+</manifest>
